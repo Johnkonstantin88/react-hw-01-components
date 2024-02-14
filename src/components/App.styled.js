@@ -1,0 +1,18 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  height: auto;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #101010;
+  background: rgb(249, 249, 249);
+  background: radial-gradient(
+    circle,
+    rgba(249, 249, 249, 1) 0%,
+    rgba(167, 186, 209, 1) 100%
+  );
+`;
